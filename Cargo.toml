@@ -1,0 +1,18 @@
+[package]
+name = "proxide"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.97"
+axum = { version = "0.8.3", features = ["macros"] }
+axum-server = "0.7.2"
+bytes = "1.10.1"
+clap = { version = "4.5.35", features = ["env"] }
+hyper = { version = "1.6.0", features = ["client"] }
+hyper-util = "0.1.11"
+notify = "8.0.0"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_yaml = "0.9.34"
+tokio = { version = "1.44.1", features = ["full"] }
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }

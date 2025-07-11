@@ -1,0 +1,7 @@
+servers:
+  app1:
+    listen: "0.0.0.0:8888"
+    upstream: "127.0.0.1:3001"
+  # app2:
+  #   listen: "0.0.0.0:8084"
+  #   upstream: "127.0.0.1:3002"
